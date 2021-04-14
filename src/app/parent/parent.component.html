@@ -1,0 +1,11 @@
+<div>
+    <button type="button" class="btn btn-primary" (click)="getdata()">GET</button>
+    <div *ngFor ="let d of dataList">
+        {{ d.title }}
+
+    </div>
+</div>
+<br>
+<div>
+    <button type="button" class="btn btn-success" (click)="getdataPromise()">GET Promise</button>
+</div>
